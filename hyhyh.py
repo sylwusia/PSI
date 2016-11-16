@@ -45,8 +45,8 @@ def tic_tac_toe():
         count = 0
         for a in win_commbinations:
             if board[a[0]] == board[a[1]] == board[a[2]] == "X":
-                print("Player 1 Wins!\n")
-                print("Congratulations!\n")
+                print("Player 1 Wins! yeeee\n")
+                print("Congratulations! ee\n")
                 return True
 
             if board[a[0]] == board[a[1]] == board[a[2]] == "O":
@@ -79,6 +79,7 @@ def tic_tac_toe():
     if input("Play again (y/n)\n") == "y":
         print()
         tic_tac_toe()
+
 
 
 tic_tac_toe()
